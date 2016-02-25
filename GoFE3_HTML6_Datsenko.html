@@ -13,7 +13,7 @@
 <div class="wrapper">
 
 <!-- TOP_MENU -->
-<div class="top-menu">
+<div class="top-menu clearfix">
 
 <!-- TOP_MENU-RIGHT-->
 <div class="top-menu-right">
@@ -25,20 +25,25 @@
 
 <!-- TOP_MENU-LEFT-->
 <div class="top-menu-left">
-  <span>(044)123-45-67 (044)567-89-10</span>
+ <img src="img/phone.png">
+ <span>(044)123-45-67 (044)567-89-10</span>
  </div> 
  <!-- END OF TOP_MENU-LEFT -->
 
 
 
 
-<div class="ofertas">
+<div class="login">
  <img src="img/white_man.png">
+ 
+ <div class="login-input">
   <div class="input-top"><input type="text" name="first_name" id="first_name" placeholder="логин"></div>
 <div class="input-top"><input type="password" name="password" id="password" placeholder="пароль"></div>
-<div class="button-top"><button>Вход</button></div>
-<div class="button-top"><button>Регистрация</button></div> 
-<div class="button-top"><button>Забыли пароль?</button></div>
+
+</div>
+<div class="button-top"><a href="#" target="_blank">Вход | </a></div>
+<div class="button-top"><a href="#" target="_blank">Регистрация</a></div> 
+<div class="button-top-pass"><a href="#" target="_blank">Забыли пароль?</a></div>
 </div>
 
 
@@ -59,12 +64,13 @@
 
 <div class="top-menu-contacts-right">
 <img src="img/basket.png" >
-<span>товаров:</span> 
+<span class="top-menu-contacts-right-ordinary">товаров:</span> 
 <span class="blue-s"> 0</span>
-<span>на сумму:</span>
+<span class="top-menu-contacts-right-ordinary">на сумму:</span>
 <span class="blue-s"> 0,00 грн</span>
 
 </div>
+<div class="top-menu-contacts-left">
   <ul>
     <li><a href="#" target="_blank">O КОМПАНИ</a></li>
     <li><a href="#" target="_blank">ОПЛАТА</a></li>
@@ -72,19 +78,18 @@
     <li><a href="#" target="_blank">СТАТЬИ</a></li>
     <li><a href="#" target="_blank">КОНТАКТЫ</a></li>
   </ul>
+  </div>
 </div>
 <!-- END OF TOP-MENU -->
 
-<div class="finder">  <!--FINDER -->
-
+<div class="finder clearfix">  <!--FINDER -->
+<script> /*
 
 <div class="finder-auto">  <!--FINDER-AUTO -->
-
+<script> /*
 <h2>Поиск по автомобилю</h2>
 <div class="avto">
  
-
-
 <div class="search-block">
             
            <form action="#">
@@ -171,9 +176,14 @@
  </div>
 
 <a href="#" target="_blank">Поиск</a>
+
+
 </div>
 
+
 <div class="find_tires">
+
+<script>/* 
 <form action="#">
        <h2>ПОИСК ШИН</h2>
   <span>Размер:</span><input list="size" name="search" id="search-box"> 
@@ -203,11 +213,13 @@
   <label><input type="checkbox"/>всесез</label>
 </form>
 <a href="#" target="_blank">Поиск</a>
+
+
   </div> 
 
 
 <div class="find_wheels">
-
+<script>/* 
 <div class="find_wheels_left">
 <h2>ПОИСК ДИСКОВ</h2>
 <h3>Диаметр диска:</h3> 
@@ -249,49 +261,135 @@
 
     <option value="12">
     <option value="15">
-  </datalist>  
-</div>
+  </datalist> 
 
 </div>
 
+
+</div>
+*/</script>
 </div> <!-- END OF FINDER -->
 
+<div clearfix> <!-- columns -->
 <!-- menu-left -->
 <div class="menu-left"> 
-<div class="menu-left-header"><font face="wingdings">£</font> ШИНЫ</div>
+<div class="menu-left-rubric"><img src="img/circle_else.png"> 
+<h2>КАТАЛОГ ПРОДУКЦИИ:</h2></div>
+<div class="menu-left-header"><img src="img/o.png"><h2> ШИНЫ</h2>
+</div>
 <ul>
-    <li><font face="wingdings">£</font> Наименование 1</li>
-    <li><font face="wingdings">£</font> Наименование 2</li>
-    <li><font face="wingdings">£</font> Наименование 3</li>
-    <li><font face="wingdings">£</font> Наименование 4</li>
+    <li><font class="wingdings" face="wingdings">£</font> Наименование 1</li>
+    <li><font class="wingdings" face="wingdings">£</font> Наименование 2</li>
+    <li><font class="wingdings" face="wingdings">£</font> Наименование 3</li>
+    <li class="menu-left-bottom-li"><font class="wingdings" face="wingdings">£</font> Наименование 4</li>
   </ul>
   
   <div class="menu-left-header">
-  <font face="wingdings">£</font> ДИСКИ</div>
+  <img src="img/o.png"><h2> ДИСКИ</h2></div>
 <ul>
-    <li><font face="wingdings">£</font> Наименование 1</li>
-    <li><font face="wingdings">£</font> Наименование 2</li>
-    <li><font face="wingdings">£</font> Наименование 3</li>
-    <li><font face="wingdings">£</font> Наименование 4</li>
+    <li><font class="wingdings" face="wingdings">£</font> Наименование 1</li>
+    <li><font class="wingdings" face="wingdings">£</font> Наименование 2</li>
+    <li><font class="wingdings" face="wingdings">£</font> Наименование 3</li>
+    <li class="menu-left-bottom-li"><font class="wingdings" face="wingdings">£</font> Наименование 4</li>
   </ul>
 
-  <div class="menu-left-header">&#163 БОЛТЫ</div>
+  <div class="menu-left-header"><img src="img/o.png"><h2>
+   БОЛТЫ</h2></div>
 <ul>
-    <li><font face="wingdings">£</font> Наименование 1</li>
-    <li><font face="wingdings">£</font> Наименование 2</li>
-    <li><font face="wingdings">£</font> Наименование 3</li>
-    <li><font face="wingdings">£</font> Наименование 4</li>
+    <li><font class="wingdings" face="wingdings">£</font> Наименование 1</li>
+    <li><font class="wingdings" face="wingdings">£</font> Наименование 2</li>
+    <li><font class="wingdings" face="wingdings">£</font> Наименование 3</li>
+    <li class="menu-left-bottom-li"><font class="wingdings" face="wingdings">£</font> Наименование 4</li>
   </ul>
 
 </div>
 <!-- END OF menu-left -->
-
-
-<div>
-  
+<!-- menu-right -->
+<div class="menu-right">
+<div class="rubric"><img src="img/circle_else.png"> 
+<h2>БРЕНДЫ</h2>
 </div>
+<form action="#"> 
+<div class="menu-right-header">
+       <img src="img/o.png"><h2></font>ШИНЫ</h2> </div>
+    
+   <div class="checkbox"><label><input type="checkbox"/>Бренд 1</label></div>
+  <div class="checkbox"> <label><input type="checkbox"/>Бренд 2</label></div>
+   <div class="checkbox checkbox-bottom"><label><input type="checkbox"/>Бренд 3</label></div>
+</form>
+
+<form action="#">
+     <div class="menu-right-header"> <img src="img/o.png"><h2>ДИСКИ</h2></div>
+    
+   <div class="checkbox"><label><input type="checkbox"/><span>Бренд 1</span></label></div>
+   <div class="checkbox"><label><input type="checkbox"/><span>Бренд 2</span></label></div>
+   <div class="checkbox checkbox-bottom"><label><input type="checkbox"/><span>Бренд 3</span></label></div>
+</form>
+
+<div class="menu-right-button"><button>Выбрать</button></div> 
 
 
+  <!-- END OF menu-right -->
+</div>
+ <!-- menu-center -->
+<div class="menu-center">
+    <ul>
+    <li><span>Goodyear</span><p class="extra_text">Ultra Grip Extreme</p><a href="#" target="_blank"> <div class="img Goodyear"><img alt="search options" src="img/Goodyear.png" class="Goodyear"></div></a><p class="price">90.00 грн.</p></li>
+
+    <li><span class="span">Nokian</span><p class="extra_text">Hakkapeliitta R</p><a href="#" target="_blank"> <div class="img"><img alt="search options" src="img/Nokian.png" class="Nokian"></div></a><p class="price">115.00 грн.</p></li>
+
+    <li><span>Hankook</span><p class="extra_text">K 708 155/65 R14</p><a href="#" target="_blank"><div class="img"> <img alt="search options" src="img/Hankook.png" class="Hankook"></div></a><p class="price">393.00 грн.</p></li>
+
+     <li><span>Goodyear</span><p class="extra_text">Ultra Grip Extreme</p><a href="#" target="_blank"> <div class="img Goodyear"><img alt="search options" src="img/Goodyear.png" class="Goodyear"></div></a><p class="price">90.00 грн.</p></li>
+
+    <li><span>Nokian</span><p class="extra_text">Hakkapeliitta R</p><a href="#" target="_blank"> <div class="img"><img alt="search options" src="img/Nokian.png" class="Nokian"></div></a><p class="price">115.00 грн.</p></li>
+
+    <li><span>Hankook</span><p class="extra_text">K 708 155/65 R14</p><a href="#" target="_blank"> <div class="img"><img alt="search options" src="img/Hankook.png" class="Hankook"></div></a><p class="price">393.00 грн.</p></li>
+
+     <li><span>Goodyear</span><p class="extra_text">Ultra Grip Extreme</p><a href="#" target="_blank"> <div class="img Goodyear"><img alt="search options" src="img/Goodyear.png" class="Goodyear"></div></a><p class="price">90.00 грн.</p></li>
+
+    <li><span>Nokian</span><p class="extra_text">Hakkapeliitta R</p><a href="#" target="_blank"> <div class="img"><img alt="search options" src="img/Nokian.png" class="Nokian"></div></a><p class="price">115.00 грн.</p></li>
+
+    <li><span>Hankook</span><p class="extra_text">K 708 155/65 R14</p><a href="#" target="_blank"> <div class="img"><img alt="search options" src="img/Hankook.png" class="Hankook"></div></a><p class="price">393.00 грн.</p></li>
+
+</ul>
+</div>  <!-- END OF menu-center -->
+
+</div> <!-- END OF columns -->
+
+
+<!-- logos -->
+<div class="logos">
+  
+
+<a href="#" target="_blank"> <img alt="logo" src="img/logo08.png" class="logo"></a>
+<a href="#" target="_blank"> <img alt="logo" src="img/logo07.png" class="logo"></a>
+<a href="#" target="_blank"> <img alt="logo" src="img/logo06.png" class="logo"></a>
+<a href="#" target="_blank"> <img alt="logo" src="img/logo05.png" class="logo"></a>
+<a href="#" target="_blank"> <img alt="logo" src="img/logo04.png" class="logo"></a>
+<a href="#" target="_blank"> <img alt="logo" src="img/logo03.png" class="logo"></a>
+<a href="#" target="_blank"> <img alt="logo" src="img/logo02.png" class="logo"></a>
+<a href="#" target="_blank"> <img alt="logo" src="img/logo01.png" class="logo"></a>
+</div><!-- END OF logos -->
+
+
+  <div class="footer"><!-- footer -->
+  <div class="footer_top">
+<a href="#" target="_blank">О компании</a>
+ <span>|</span>
+<a href="#" target="_blank">Доставка</a>
+<span>|</span>
+<a href="#" target="_blank">Статьи</a>
+<span>|</span>
+<a href="#" target="_blank">Контакты</a>
+</div><!-- END OF footer_top -->
+
+<div class="footer_bottom"><!-- footer_bottom -->
+ <span>Создание сайта © Global Vision</span>
+</div><!-- END OF footer_bottom -->
+
+
+</div> <!-- END OF footer -->
   </div>
 
   <!-- END OF WRAPPER -->
